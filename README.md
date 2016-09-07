@@ -1,9 +1,10 @@
 # easy-wordsearch
 
-Execute make.sh
+* Execute make.sh
 then look for words
 
 
-Or run this command:
-LC_CTYPE=C; cat /dev/random | tr -dc 'a-z' | fold -w32 | head -n 20 > wordsearch
+* Or run this command:
+`LC_CTYPE=C; cat /dev/random | tr -dc 'a-z' | fold -w32 | head -n 20`
+
 (slightly easier)
